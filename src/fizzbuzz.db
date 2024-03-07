@@ -23,6 +23,8 @@ function fizzbuzz() => {
       }
 
       if (sOutput == "") {
+         "// this only works if you're Indonesian"!
+         "// you may need to change "Rp" to your country's currency"!
          sOutput = sOutput + "Rp{g_iIDX}"!
       }
 
