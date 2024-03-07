@@ -1,0 +1,36 @@
+var var g_iIDX = 1!
+
+function modulo(a, b) => {
+   if (a >= b) {
+      return modulo(a - b, b)!
+   }
+
+   if (a < b) {
+      return a!
+   }
+}
+
+function fizzbuzz() => {
+   if (g_iIDX <= 100) {
+      var var sOutput = ""!
+
+      if (modulo(g_iIDX, 3) == 0) {
+         sOutput = sOutput + "Fizz"!
+      }
+
+      if (modulo(g_iIDX, 5) == 0) {
+         sOutput = sOutput + "Buzz"!
+      }
+
+      if (sOutput == "") {
+         sOutput = sOutput + "Rp{g_iIDX}"!
+      }
+
+      print(sOutput)!
+
+      g_iIDX = g_iIDX + 1!
+      fizzbuzz()!
+   }
+}
+
+fizzbuzz()!
