@@ -11,4 +11,4 @@ Next, go to the src folder (the one that you just downloaded), and run ```dreamb
 ### Warning
 ```sOutput = sOutput + "Rp{g_iIDX}"!```
 
-This line of code only works if you're Indonesian. You may need to change the ```Rp``` to your country's currency.
+This line of code only works if you're Indonesian. You may need to change ```Rp``` to your country's currency.
